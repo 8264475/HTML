@@ -1,0 +1,42 @@
+        h2.st1 {
+            color: green;
+            decoration: underline;
+        }
+
+        .st2 {
+            color: purple;
+            text-transform: capitalizes;
+        }
+
+        .col1 {
+            color: blue;
+        }
+
+        .col2 {
+            color: brown;
+        }
+
+        .fos {
+            font-style: bolder;
+        }
+
+        .texd {
+            text-decoration: line-through;
+        }
+
+        .text {
+            text-transform: capitalize;
+        }
+
+        #col2H1 {
+            color: pink;
+        }
+
+        .colH1 {
+            color: red;
+        }
+
+        p {
+            color: #C4C400;
+            font-weight: 500;
+        }
