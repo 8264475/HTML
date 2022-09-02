@@ -7,6 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS的使用--自訂樣式(Linking)</title>
     <link rel="stylesheet" href="styles/st1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            src: url(fonts/JustOldFashion.ttf);
+            font-family: fon1;
+        }
+
+        @font-face {
+            src: url(fonts/SCRIPTIN.ttf);
+            font-family: fon2;
+        }
+
+        .fon1 {
+            font-family: fon1;
+        }
+
+        .fon2 {
+            font-family: fon2;
+        }
+
+        .stylesheet {
+            font-family: 'Caveat', cursive;
+        }
+    </style>
     <!--<style>
         h2.st1 {
             color: green;
@@ -49,12 +73,12 @@
 </head>
 
 <body>
-    <h1 style="color:green;" class="colH1" id="col2H1">apple</h1>
-    <h2 class="st1">orange</h2>
-    <h2 class="st2">banana</h2>
-    <h2 class="st2">grape</h2>
-    <h2 class="col1 fos1">dog</h2>
-    <h2 class="col2 fof1 texd text">cat</h2>
+    <h1 style="color:green;" class="colH1" id="col2H1">Apple is good.</h1>
+    <h2 class="st1 fon1">Orange is good.</h2>
+    <h2 class="st2 fon2">Banana is good.</h2>
+    <h2 class="st2 stylesheet">Grape is good.</h2>
+    <h2 class="col1 fos1">Dog is good.</h2>
+    <h2 class="col2 fof1 texd text">Cat is good.</h2>
     <p>This is a pargraph!</p>
 </body>
 
